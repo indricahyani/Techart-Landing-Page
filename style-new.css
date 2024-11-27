@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@400;700&display=swap" rel="stylesheet');
+
+body {
+    background-color: #ffffff; 
+    color: #333;
+    text-align: center;
+    margin: 0; 
+    padding: 0;
+}
+
+header {
+    background-color: #dbe7f3;
+    padding: 8px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 4px rgba(88, 88, 88, 0.2);
+}
+
+header nav a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+header nav a:hover {
+    text-decoration: underline;
+  }
+
+.navbar {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%; 
+    box-sizing: border-box;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar a, .cta-button {
+    color: #013a63;
+    padding: 0.5rem 1rem;
+    border: 1px solid transparent;
+    border-radius: 4px;
+  }
+
+.logo-img {
+    width: 150px; 
+    height: auto;
+    margin-right: 10px;
+}
+
+.hero {
+    display: flex;
+    text-align: center;
+    padding: 100px 20px;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px; 
+}
+
+.hero-content h1 {
+    font-family: 'Newsreader', serif;
+    font-size: 48px;
+    line-height:50px;
+    margin-left: 100px;
+    margin-top: -120px;
+}
+
+.cta-button {
+    margin: 0 0.5rem;
+    background-color: #89C2D9; 
+    color: white; 
+    border: none; 
+    border-radius: 8px; 
+    padding: 10px 30px; 
+    font-size: 16px; 
+    font-family: 'Inter', sans-serif;
+    font-weight: 700; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    pointer-events: auto;
+    margin-left: -1700px;
+    text-decoration: none;
+}
+
+.hero-content img {
+    width: 450px; 
+    height: auto;
+    margin-top: -50px;
+}
+
+.about {
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    text-align: center;
+    gap: 100px; 
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+
+.logo-about-us {
+    width: 400px; 
+    height: auto;
+    margin-left: -100px;
+}
+
+
+.about-text h2 {
+    font-size: 48px;
+    font-family: 'Newsreader', sans-serif;
+    color: #000000;
+    margin: 0;
+    text-align: left;
+}
+
+.about-text h4 {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #014f86;
+    margin: 0;
+    text-align: left;
+
+}
+
+.underline {
+    width: 278px; 
+    height: 2px; 
+    background-color: #333; 
+    margin: 10px auto 0; 
+    margin: 10px 0 0 0;
+}
+
+.about-text p {
+    font-size: 16px;
+    font-family: 'inter', sans-serif;
+    text-align: left;
+    color: #666;
+    margin-top: 10px;
+    line-height:20px;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 0 20px;
+}
+
+.service-text h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #014f86;
+    margin-bottom: -30px;
+    text-align: center;
+}
+
+.service-text h3 {
+    font-family: 'Newreader', serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #EDF2FB;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 298px;
+    height: 370px;
+    padding: 20px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card h5 {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card h4 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #89C2D9; 
+    color: white; 
+    text-decoration: none;
+    border: none; 
+    border-radius: 8px; 
+    font-size: 14px; 
+    font-family: 'Inter', sans-serif; 
+    font-weight: bold; 
+    cursor: pointer; 
+    margin: 7px auto 0; 
+}
+
+.testimonials h2 {
+    font-family: 'Newsreader', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #014f86;
+    margin-bottom: 30px;
+    margin-top: 210px;
+    text-align: center;
+}
+
+.testimonial-slider {
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto;
+    padding: 1rem;
+}
+  
+.testimonial {
+    background: #FFFFFF;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1.5px solid #E2EAFC;
+    flex: 0 0 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  
+.testimonial h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #013a63;
+}
+
+.testimonial p {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    margin-top: 0.5rem;
+    font-weight: 600;
+}
+
+.faq h2 {
+    font-family: 'Newsreader', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #014f86;
+    margin-bottom: 40px;
+    margin-top: 200px;
+    text-align: center;
+}
+
+.faq-item {
+    max-width: 700px;
+    margin: 0 auto 1rem;
+    text-align: left;
+    border-radius: 10px;
+}
+  
+.faq-item h3 {
+    cursor: pointer;
+    background: #abc4ff;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+  
+.faq-item p {
+    padding: 1rem;
+    display: none;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+.contact-content {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.contact h2 {
+    font-family: 'Newsreader', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #014f86;
+    margin-bottom: 10px;
+    margin-top: 170px;
+    text-align: center;
+}
+
+.contact p {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color:#333;
+    margin-bottom: 40px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.contact-info {
+    background-color: #EDF2FB;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid #CCDBFD;
+}
+
+.contact-info h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.contact-info p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: -10px;
+}
+  
+.social-media a {
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+    footer {
+    background: #96b2f5;
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+    margin-top: 150px;
+}
+ 
+.logo-startup {
+    width: 110px;
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    margin: 0 0.5rem;
+}
+
+.footer-content p {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.scroll-top {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
